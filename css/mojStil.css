@@ -1,0 +1,98 @@
+.banner {
+
+    background-image: url("/img/banner.jpg");
+    background-repeat: repeat-x; /* horizontalno */
+    height: 250px;
+}
+.top-bar {
+    background-color:transparent !important;
+}
+
+.top-bar ul{
+    background-color:transparent !important;
+}
+.top-bar a{
+    color:red !important;
+}
+
+ul {
+    list-style-type:none;
+}
+
+
+@media screen and (min-width:48.81rem ) {
+	a > img {
+
+        width:  303px;
+        height: 213px;
+        background-position: 50% 50%;
+        background-repeat:   no-repeat;
+        background-size:     cover;
+    }
+
+    div.kratki {
+        height: 250px;
+        margin:0;
+        padding: 0;
+}
+    
+
+}
+
+
+
+h3 {
+    height: 86px;
+
+}
+
+.blog-post{
+    padding-top: 10px;
+}
+
+.borderlist {
+    list-style-position:inside;
+
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    padding: 1rem 4rem;
+    border: 0.0625rem solid #ddd !important;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 1rem!important;
+
+    transition: color 0.3s, border 0.3s, font-weight 0.3s;
+}
+input[type=submit]:hover {
+    color: #000;
+    border: 0.0625rem solid #000 !important;
+    font-weight: 700;
+}
+form#djete {
+    display: flex;
+    flex-direction: column;
+}
+
+li.padajuci  ul {
+    display : none;
+}
+
+section.hambi ul {
+    display: none;
+}
+.crni{
+    background-color:#def2f8;
+    color: black;
+    height: 5%;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+
+}

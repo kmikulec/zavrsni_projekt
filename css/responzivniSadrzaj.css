@@ -1,0 +1,6 @@
+#content .large-12 > .row > div{display:flex;flex-wrap:wrap;justify-content:space-between;}
+@media(min-width:48rem){#content .large-12 > .row > div .large-6.column{width:50% !important;}
+}
+@media(max-width:48rem){#content .large-12 > .row > div{flex-direction:column;}
+#content .large-12 > .row > div .large-6.column{width:100% !important;}
+}
